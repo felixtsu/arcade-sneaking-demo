@@ -1,7 +1,6 @@
 function selectNextEnemyInScreen () {
     i = (currentSelectedEnemyIndex + 1) % patrolSprites.length
     while (i != currentSelectedEnemyIndex) {
-        // not relative to camera, so passing null is ok
         if (!(patrolSprites[i].isOutOfScreen(game.currentScene().camera))) {
             currentSelectedEnemySprite = patrolSprites[i]
             currentSelectedEnemyIndex = i
