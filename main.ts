@@ -39,7 +39,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     } else {
         if (hiding) {
             hiding = false
-            controller.moveSprite(playerSprite)
+            smoothturn.moveSprite(playerSprite, 50, 50)
             playerSprite.setImage(img`
                 . . . . . . . . . . . . . . . . 
                 . . . . . . . . . . . . . . . . 
@@ -60,7 +60,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
                 `)
         } else {
             hiding = true
-            controller.moveSprite(playerSprite, 0, 0)
+            smoothturn.moveSprite(playerSprite, 0, 0)
             playerSprite.setImage(img`
                 e 3 3 3 3 3 3 3 3 3 3 3 3 3 3 e 
                 e 4 4 4 4 4 4 4 4 4 4 4 4 4 4 e 
@@ -242,8 +242,16 @@ playerSprite = sprites.create(img`
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Player)
 tiles.placeOnTile(playerSprite, tiles.getTileLocation(1, 1))
-controller.moveSprite(playerSprite)
+smoothturn.moveSprite(playerSprite, 50, 50)
 scene.cameraFollowSprite(playerSprite)
+
+control.runInParallel(function() {
+    pause(1000)
+    game.splash("A与物体互动/用箱子伪装自己")
+    game.splash("B观察敌人警戒范围")
+    game.splash("找到宝箱就赢了")
+    game.splash("被敌人发现就输了")
+})
 
 game.onUpdate(function() {
     if (enemyCursor != null) {
@@ -261,7 +269,7 @@ game.onUpdate(function() {
             enemy.say("Intruder")
             scene.cameraFollowSprite(enemy)
             music.siren.play()
-            controller.moveSprite(playerSprite, 0, 0)
+            smoothturn.moveSprite(playerSprite, 0, 0)
             control.runInParallel(function() {
                 pause(2000)
                 game.over()    

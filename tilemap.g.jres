@@ -4,10 +4,15 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
+    "tile1": {
+        "data": "hwQQABAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
     "level": {
         "id": "level",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDAxMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAzMDgwYzBjMGMwYzBjMGMwOTBhMGEwYTBhMGEwYTBhMDQwODBjMGMwYzBjMGMwYzA5MGEwOTBhMGEwYTBlMGEwNDA4MGMwYzA5MDkwOTA5MDkwYTA5MGEwYTBhMGUwYTA0MDgwOTBjMGMwYTBhMGEwYTBhMGEwYTBhMGEwZTBhMDQwODA5MDkwOTBhMDkwOTA5MGEwOTBhMGEwYTBlMGEwNDA4MGEwYTBhMGEwYTBhMGEwYTA5MGEwYTBhMGUwYTA0MDgwYTA5MGEwOTA5MDkwOTBhMDkwYTA0MGEwZTBhMDQwODBhMDkwYTBhMGEwYTBhMGEwOTBhMTAwZDBmMGEwNDA4MGEwOTBhMGEwYTBhMGEwYTBhMGEwOTBhMDkwYTA0MDgwYTBhMGEwYTA5MGEwYTA5MDkwOTBhMGEwOTBhMDQwODBhMDkwOTA5MDkwYTBhMGEwYTBhMGEwYTA5MDkwNDA4MGEwYTBhMGEwOTBhMGEwOTA5MDkwOTBhMGEwYTA0MDgwYTBhMDkwYTBhMGEwOTBhMGEwYTBhMGEwYTBhMDQwODBhMGEwOTBhMGEwYTA5MGEwYTBhMGEwYTBhMGIwNDA3MDYwNjA2MDYwNjA2MDYwNjA2MDYwNjA2MDYwNjA1MjIyMjIyMjIyMjIyMjIyMjAyMDAwMDIwMDAwMDAwMjAwMjAwMDAyMDIwMDAyMDIwMDIyMDIyMjIyMDAwMjAyMDIyMDAwMDAwMDAwMDIwMjAyMjIyMjAyMjIwMDAyMDIwMDIwMDAwMDAyMDAwMjAyMDAyMDIyMjIyMjAyMDIwMjAwMjAyMDAwMDIwMjAyMjIwMDIwMjAwMDAwMDIwMjAyMDAyMDAyMDAwMjIwMjIwMjAwMjIyMjIwMDAwMDAyMDIyMDIwMDIwMDAyMjIyMDAyMDAyMjAwMDIwMDAwMDAwMjAwMjIwMDAyMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIyMg==",
+        "data": "MTAxMDAwMTAwMDAxMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAzMDgwYTBhMGEwYTBhMGEwOTBhMGEwYTBhMGEwYTBhMDQwODBhMGEwYTBhMGEwYTA5MGEwOTBhMGEwYTBhMGEwNDA4MGEwYTA5MDkwOTA5MDkwYTA5MGEwYTEyMTEwYTA0MDgwOTBhMGEwYTBhMGEwYTBhMGEwYTBhMDQwZDBhMDQwODA5MDkwOTBhMDkwOTA5MGEwOTBhMGEwNDBkMGEwNDA4MGEwYTBhMGEwYTBhMGEwYTA5MGExMjA1MGQwYTA0MDgwYTA5MGEwOTA5MDkwOTBhMDkwYTA0MTAwZDBhMDQwODBhMDkwYTBhMGEwYTBhMGEwOTBhMGYwYzBlMGEwNDA4MGEwOTBhMGEwYTBhMGEwYTBhMGEwOTBhMDkwYTA0MDgwYTBhMGEwYTA5MGEwYTA5MDkwOTBhMGEwOTBhMDQwODBhMDkwOTA5MDkwYTBhMGEwYTBhMGEwYTA5MDkwNDA4MGEwYTBhMGEwOTBhMGEwOTA5MDkwOTBhMGEwYTA0MDgwYTBhMDkwYTBhMGEwOTBhMGEwYTBhMGEwYTBhMDQwODBhMGEwOTBhMGEwYTA5MGEwYTBhMGEwYTBhMGIwNDA3MDYwNjA2MDYwNjA2MDYwNjA2MDYwNjA2MDYwNjA1MjIyMjIyMjIyMjIyMjIyMjAyMDAwMDIwMDAwMDAwMjAwMjAwMDAyMDIwMDAwMDIwMDIyMDIyMjIyMDAwMjIyMDIyMDAwMDAwMDAwMDIyMjAyMjIyMjAyMjIwMDAyMjIwMDIwMDAwMDAyMDIwMjIyMDAyMDIyMjIyMjAyMDIwMjAwMjAyMDAwMDIwMjAyMjIwMDIwMjAwMDAwMDIwMjAyMDAyMDAyMDAwMjIwMjIwMjAwMjIyMjIwMDAwMDAyMDIyMDIwMDIwMDAyMjIyMDAyMDAyMjAwMDIwMDAwMDAwMjAwMjIwMDAyMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIyMg==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.dungeon.greenOuterNorthWest",
@@ -21,11 +26,13 @@
             "sprites.dungeon.stairLadder",
             "sprites.dungeon.floorLight2",
             "sprites.dungeon.chestClosed",
-            "sprites.dungeon.floorLight0",
             "sprites.dungeon.greenSwitchUp",
             "sprites.dungeon.greenOuterWest1",
             "sprites.dungeon.greenInnerSouthEast",
-            "sprites.dungeon.greenInnerSouthWest"
+            "sprites.dungeon.greenInnerSouthWest",
+            "myTiles.tile1",
+            "sprites.dungeon.greenInnerNorthEast",
+            "sprites.dungeon.greenInnerNorthWest"
         ]
     },
     "*": {
